@@ -75,7 +75,7 @@ public class ListaReduce1 {
                     .stream()
                     .reduce(1, (n1,n2) -> Math.max(n1, n2));
                     
-            System.out.println("menor valor: " + maxValue);
+            System.out.println("maior valor: " + maxValue);
             
             
             
